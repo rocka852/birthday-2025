@@ -1,0 +1,14 @@
+
+.mycontainer {
+	width: 100vw;
+	height: 100vh;
+	
+	background-image: linear-gradient(to bottom, rgba(255,255,255, 0.2) 0 100%), url("../../../photos/m15.jpg");
+	margin:2px;
+}
+
+#mainpics {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}

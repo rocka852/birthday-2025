@@ -1,24 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+//import { Routes, Route, Navigate } from "react-router";
+import { HashRouter } from "react-router-dom"
+import Birthday from "./Birthday-2025"
+//import Greetings from "./Birthday-2025/Greetings" 
+// you can call it anything you want but first letter must capitalized
+// import from Greetings or Greetings/index.jsx both work
+//import Photos from "./Birthday-2025/Photos"
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HashRouter>
+      <div>
+        <Birthday />
+      </div>
+    </HashRouter>    
   );
 }
 
